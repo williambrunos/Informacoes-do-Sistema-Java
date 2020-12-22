@@ -7,5 +7,6 @@ public class ComponenteTempo {
         //O atributo YEAR pode ser reescrito como MONTH, HOUR e etc...
         //Escreva Calendar. e veja quais atributos você pode adquirir do sistema:
         int date = data.get(Calendar.YEAR);
+        System.out.println("Ano atual: "+date);
     }
 }

@@ -6,5 +6,6 @@ public class IdiomaFormatado {
         Locale local = Locale.getDefault();
         //Neste código a linguagem do sistema é escrita por extenso, facilitando a leitura
         String idioma = local.getDisplayLanguage();
+        System.out.println("Idioma do sistem: "+idioma);
     }
 }
